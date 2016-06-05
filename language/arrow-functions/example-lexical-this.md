@@ -21,7 +21,6 @@ function Greeter(greeting) {
   });
 }
 ```
-{: title=legacy }
 
 Can be rewritten and made simpler with the use of arrow functions.
 
@@ -34,4 +33,3 @@ function Greeter() {
   });
 }
 ```
-{: title=modern }
