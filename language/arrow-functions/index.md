@@ -22,5 +22,9 @@ important to know about.
 
 Lexical scope for `this`, `super`, `arguments` and `new.target` bindings.
 : Arrow functions share the same lexical scope bindings for `this`,
-`arguments`, `super` and `new.target` variable bindings as the function the
-arrow function is declared within.
+  `arguments`, `super` and `new.target` variable bindings as the function the
+  arrow function is declared within.
+
+## Examples
+
+- [Arrow Function Example: Lexical This](example-lexical-this)
