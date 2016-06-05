@@ -1,0 +1,6 @@
+title: Understanding ECMAScript 2015
+permalink: /:categories/:slug
+
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap

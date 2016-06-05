@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      {% capture style %}
+        @import 'base';
+        @import 'layout';
+      {% endcapture %}
+
+      {{ style | scssify }}
+    </style>
+
+    {% seo %}
+  </head>
+
+  <body class="container">
+    <main class="content">
+      <section class="content-sidebar">
+        {% include navigation.html context="/" %}
+      </section>
+
+      <section class="content-main">
+        {{ content }}
+      </section>
+    </main>
+  </body>
+</html>
