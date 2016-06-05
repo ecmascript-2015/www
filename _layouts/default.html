@@ -33,5 +33,9 @@
         {{ content }}
       </section>
     </main>
+
+    {% if site.google_tracking_id and site.environment != 'development' %}
+      {% include google_analytics.html %}
+    {% endif %}
   </body>
 </html>

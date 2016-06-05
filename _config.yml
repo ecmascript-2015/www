@@ -1,6 +1,7 @@
 title: Understanding ECMAScript 2015
 permalink: /:categories/:slug
 
+google_tracking_id: UA-78808274-1
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
