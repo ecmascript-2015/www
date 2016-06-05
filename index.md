@@ -17,4 +17,8 @@ ECMAScript 6 is the sixth edition of this specification which was rattified and
 completed in 2015, this version of the standard specification has also gone for
 a long time under the name ECMAScript 6, which was it's working name for a long
 time during the standardization process but in the end the technical committee
-decided to break the prior naming convention and go ahead with ECMAScript 2015. 
+decided to break the prior naming convention and go ahead with ECMAScript 2015.
+
+EMCAScript 2015 is by far the most feature packed revision to date, this guide
+covers most of the new language features, changes and library additions made in
+this version of the specification.
