@@ -8,7 +8,7 @@ title: Arrow Functions
 
 ECMAScript 2015 provides us with a new form of funtions called arrow functions
 which use the "fat arrow" notation `=>`, these functions can only be defined as
-function expressions (i.e we have to assign it to a varaible binding).
+function expressions bound to a `let`, `const` or `var` binding.
 
 ```javascript
 let fn = () => {
