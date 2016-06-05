@@ -1,11 +1,5 @@
 {% capture html %}
   <ul class="menu-list">
-    {% if include.context == "/" %}
-      <li class="menu-item">
-        <a class="menu-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      </li>
-    {% endif %}
-
     {% assign items = site.pages %}
 
     {% for item in items %}
@@ -21,9 +15,8 @@
       {% if current == include.context and item.url != include.context %}
         <li>
           <a class="menu-link" href="{{ item.url }}">{{ item.title }}</a>
+          {% include navigation.html context=item.url %}
         </li>
-
-        {% include navigation.html context=item.url %}
       {% endif %}
     {% endfor %}
   </ul>
