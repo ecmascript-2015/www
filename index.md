@@ -1,10 +1,10 @@
 ---
 lang: en
 layout: default
-title: Understanding ECMAscript 2015
+title: Introduction
 ---
 
-# Understanding ECMAScript 2015
+# Hackers Guide to ECMAScript 2015
 
 ECMAScript is the name of the official JavaScript standard that JavaScript
 runtimes implement, there's this whole trademark issue with Sun (Oracle) having
