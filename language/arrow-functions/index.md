@@ -28,3 +28,4 @@ Lexical scope for `this`, `super`, `arguments` and `new.target` bindings.
 ## Examples
 
 - [Arrow Function Example: Lexical This](example-lexical-this)
+- [Arrow Function Example: Expressions](example-expressions)
