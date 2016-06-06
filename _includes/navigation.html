@@ -7,7 +7,7 @@
       {% if slug %}
         {% assign current = item.url | remove: slug %}
       {% else %}
-        {% assign currente = item.url %}
+        {% assign current = item.url %}
       {% endif %}
 
       {% assign current = current | replace: "//", "/" %}
